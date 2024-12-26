@@ -50,7 +50,7 @@ const GamePlay = () => {
         setScore((prev)=> prev+ selectedNum);
       }
       else{
-        setScore((prev)=>prev-2);
+        setScore((prev)=>prev-(0.5 * selectedNum));
       }
 
       setselectedNum(undefined);
